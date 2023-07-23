@@ -69,7 +69,7 @@ export const AppReducer = (state, action) => {
             state.currency = action.payload;
             return {
                 ...state
-            }
+            };
 
         default:
             return state;
